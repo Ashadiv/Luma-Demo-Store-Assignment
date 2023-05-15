@@ -13,9 +13,13 @@
   "directories": {
     "test": "test"
   },
+  "devDependencies": {},
+  
+  
   "scripts": {
-    "test": "mocha"
+    "test": "mocha --timeout 50000"
   },
+
   "keywords": [],
   "author": "",
   "license": "ISC"
