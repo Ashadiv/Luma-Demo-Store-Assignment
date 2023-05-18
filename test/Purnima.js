@@ -9,7 +9,7 @@ I should be able to complete user registration and create an account successfull
 
 */
 
-describe.only('click on create an account to Luma Demostore', () => {
+describe('click on create an account to Luma Demostore', () => {
     context('I fill the user registration form for the new user', () => {
         it('I should be able to create my account', async () => {
             const driver = await new Builder().forBrowser('firefox').build();
@@ -43,7 +43,7 @@ describe.only('click on create an account to Luma Demostore', () => {
                 information.should.contain('Create New Customer Account');
 
             } finally {
-                // await driver.quit();
+                 await driver.quit();
             }
         });
     });
@@ -56,7 +56,7 @@ I should be able to contact store for any feedback
 
 */
 
-describe.only('I click on contact us to the Luma Demostore', () => {
+describe('I click on contact us to the Luma Demostore', () => {
     context('I fill the feedback form', () => {
         it ('I should be able to submit the form', async () => {
             const driver =await new Builder().forBrowser('firefox').build();
@@ -85,7 +85,7 @@ describe.only('I click on contact us to the Luma Demostore', () => {
                 information.should.contain('Contact Us');
 
             }finally {
-                // await driver.quit();
+                 await driver.quit();
             }
         });
     });
