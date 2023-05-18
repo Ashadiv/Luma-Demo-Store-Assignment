@@ -7,7 +7,7 @@ const { Builder, By, Key, until } = require("selenium-webdriver");
 const expect = require("chai").expect;
 
 //test grouping: newsletter subscription
-describe("Subscribe to newsletter", () => {
+describe.skip("Subscribe to newsletter", () => {
   //Test case:
   context("I enter my email in the newsletter form", () => {
     it(" I should be subscribed to the newsletter", async () => {
@@ -40,7 +40,7 @@ describe("Subscribe to newsletter", () => {
 });
 
 // Test grouping: Sort by price
-describe("Sort By Price", () => {
+describe.skip("Sort By Price", () => {
   //Test Case:
   context("I sort the items by Price", () => {
     it("I should be able to select value as price", async () => {

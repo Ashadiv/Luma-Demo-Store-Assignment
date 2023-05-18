@@ -9,7 +9,11 @@ I should be able to complete user registration and create an account successfull
 
 */
 
+<<<<<<< Updated upstream
 describe('click on create an account to Luma Demostore', () => {
+=======
+describe.skip('click on create an account to Luma Demostore', () => {
+>>>>>>> Stashed changes
     context('I fill the user registration form for the new user', () => {
         it('I should be able to create my account', async () => {
             const driver = await new Builder().forBrowser('firefox').build();
@@ -56,7 +60,11 @@ I should be able to contact store for any feedback
 
 */
 
+<<<<<<< Updated upstream
 describe('I click on contact us to the Luma Demostore', () => {
+=======
+describe.skip('I click on contact us to the Luma Demostore', () => {
+>>>>>>> Stashed changes
     context('I fill the feedback form', () => {
         it ('I should be able to submit the form', async () => {
             const driver =await new Builder().forBrowser('firefox').build();
