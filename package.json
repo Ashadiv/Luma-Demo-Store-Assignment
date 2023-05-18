@@ -1,5 +1,4 @@
 {
-<<<<<<< Updated upstream
   "dependencies": {
     "chai": "^4.3.7",
     "dotenv": "^16.0.3",
@@ -9,13 +8,8 @@
   },
   "name": "luma-demo-store-final-group-assignment",
   "description": "",
-=======
-  "name": "nodejs_database_first",
->>>>>>> Stashed changes
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
-<<<<<<< Updated upstream
   "directories": {
     "test": "test"
   },
@@ -23,29 +17,10 @@
   
   
   "scripts": {
-    "test": "mocha --timeout 50000"
-=======
-  "scripts": {
     "test": "mocha --no-timeouts"
->>>>>>> Stashed changes
   },
 
   "keywords": [],
   "author": "",
-<<<<<<< Updated upstream
   "license": "ISC"
 }
-=======
-  "license": "ISC",
-  "dependencies": {
-    "better-sqlite3": "^8.3.0",
-    "chai": "^4.3.7",
-    "dotenv": "^16.0.3",
-    "mochawesome": "^7.1.3",
-    "selenium-webdriver": "^4.9.2"
-  },
-  "devDependencies": {
-    "mocha": "^10.2.0"
-  }
-}
->>>>>>> Stashed changes
