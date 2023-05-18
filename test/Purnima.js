@@ -38,6 +38,10 @@ describe.only('click on create an account to Luma Demostore', () => {
 
                 await driver.findElement(By.xpath("//button[@title='Create an Account']")).click()
 
+                const information =await driver.findElement(By.css('.page-title-wrapper .page-title .base')).getText();
+                //Assert
+                information.should.contain('Create New Customer Account');
+
             } finally {
                 // await driver.quit();
             }
@@ -75,6 +79,10 @@ describe.only('I click on contact us to the Luma Demostore', () => {
                   await driver.findElement(By.id('comment')).sendKeys("Defective item received need to exchange soon call please");
 
                   await driver.findElement(By.xpath("//button[@title='Submit']")).click()
+
+                  const information =await driver.findElement(By.css('.page-title-wrapper .page-title .base')).getText();
+                //Assert
+                information.should.contain('Contact Us');
 
             }finally {
                 // await driver.quit();
