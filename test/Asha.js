@@ -10,13 +10,12 @@ let pass = process.env.PASS;
 /*
 
 As a new user of Luma Webstore
-I would like to be able to login and add user deatils in account successfully
+I would like to be able to login and add edd address  deatils successfully
 
 */
 
- //.only() -run only this test block //  .skip()  --skip this specific  test
-describe('login to Luma Demostore', () => {
-    context('I click on login and enter my credentials', () => {
+ describe('login to Luma Demostore', () => {
+    context('I click on login and to do edit address details', () => {
         it (' I should be logged in and see my profile', async () => {
             const driver =await new Builder().forBrowser('firefox').build();
             try{
@@ -98,7 +97,7 @@ describe('login to Luma Demostore', () => {
             }finally {
 
                 
-                // await driver.quit();
+                 await driver.quit();
             }
         });
     });
@@ -135,7 +134,7 @@ describe('Advance Search to Luma Demostore', () => {
                 
             }finally {
 
-                // await driver.quit();
+                 await driver.quit();
             }
         });
     });
